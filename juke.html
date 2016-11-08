@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript jukebox</title>
+	<link ref="stylesheet" href="juke.css">
+</head>
+<body>
+	<audio id="myAudio">
+		<source src="song1.ogg" type="audio/ogg">
+  		<source src="song1.mp3" type="audio/mpeg">
+	</audio>
+
+<p>Press the buttons to play the song</p>
+
+<button onclick="playAudio()" type="button">Play</button>
+<button onclick="pauseAudio()" type="button">Pause</button>
+<button onclick="stopAudio()" type="button" >Stop</button>
+<button type="button">Change Song</button>
+	<script src="juke.js"></script>
+</body>
+</html>
